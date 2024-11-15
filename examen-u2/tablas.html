@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tablas de Multiplicar</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/tablas.css">
+</head>
+<body>
+
+    <header>
+        <h1>Examen Unidad 2</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="tablas.html">Tablas de Multiplicar</a></li>
+            <li><a href="contador.html">Contador</a></li>
+            <li><a href="lista-tareas.html">Lista de Tareas</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Tabla de Multiplicar</h1>
+        <label for="number">Número:</label>
+        <input type="number" id="number" placeholder="Ingresa el número" required><br>
+        
+        <label for="limit">Límite:</label>
+        <input type="number" id="limit" placeholder="Ingresa el límite" required><br>
+        
+        <button id="generar-tabla">Generar Tabla</button>
+        
+        <textarea id="result" readonly placeholder="Resultado de la tabla..."></textarea>
+    </div>
+
+    <script src="/js/tablas.js"></script>
+</body>
+</html>
